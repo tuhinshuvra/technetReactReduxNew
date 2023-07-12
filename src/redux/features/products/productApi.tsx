@@ -27,7 +27,7 @@ const productApi = api.injectEndpoints({
 
 
     }),
-})
+});
 
 export const {
     useGetCommentQuery,

@@ -3,14 +3,9 @@ import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { Button } from './ui/button';
 import { Textarea } from './ui/textarea';
 import { FiSend } from 'react-icons/fi';
-import { useGetCommentQuery, usePostCommentMutation } from '@/redux/api/apiSlice';
-
-const dummyComments = [
-  'Bhalo na',
-  'Ki shob ghori egula??',
-  'Eta kono product holo ??',
-  '200 taka dibo, hobe ??',
-];
+import {
+  useGetCommentQuery, usePostCommentMutation
+} from '@/redux/features/products/productApi';
 
 interface IProps {
   id: string;
